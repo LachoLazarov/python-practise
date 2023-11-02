@@ -1,1 +1,2 @@
-print('Task 1. Hello World.')
+greeting = 'Task 1. Hello World!'
+print(greeting)
