@@ -23,8 +23,8 @@ def convert_coordinate(coordinate):
 
 def compare_records(azara_record, rui_record):
     azara_coordinate = get_coordinate(azara_record)
-    azara_coordinate = convert_coordinate(azara_coordinate)
-    rui_coordinate = convert_coordinate(rui_record[1])
+    azara_coordinate == convert_coordinate(azara_coordinate)
+    rui_coordinate = rui_record[1][0] + rui_record[1][1]
     return azara_coordinate == rui_coordinate
 
 for azara_record in azara_list:
