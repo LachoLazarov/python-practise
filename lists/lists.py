@@ -1,4 +1,4 @@
-people = ['John' , 'Michael', 'Terry' , 'Eric', 'Graham']
+people = ['JohnT' , 'Michael', 'Terry' , 'Eric', 'Graham']
 cars = [911, 130, 328, 535, 740, 308]
 print(people)
 people.sort()
