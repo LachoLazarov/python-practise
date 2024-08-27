@@ -7,4 +7,4 @@ def num_days(month):
         days = 28
     print('number of days in', month, 'is', days)
 
-num_days('jun')
+num_days('feb')
