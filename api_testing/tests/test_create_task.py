@@ -7,6 +7,7 @@ def test_endpoint_create_task():
         "user_id": "test_user_id",
         "is_done": False
     }
+    #use one letter instead of create_task_response - r = request.get()
     create_task_response = requests.put(ENDPOINT_CREATE_TASK + "/create-task", json=payload)
     assert create_task_response.status_code == 200
 
